@@ -39,14 +39,14 @@
 
   .wrapper{
 
-    p:nth-child(2)::before{
+    p:nth-child(1)::before{
     content: '"';
     position: relative;
     font-size: 1.2rem;
     color: $white-color;   
     }
 
-    p:nth-child(2)::after {
+    p:nth-child(1)::after {
     content: '"';
     position: relative;
     font-size: 1.2rem;
@@ -56,36 +56,6 @@
     p:nth-child(3) {
     margin-top: 1rem;
     position: relative;
-    }
-
-  }
-  &-dots{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-
-    li{
-      margin-right: 0.6rem;
-    }
-
-    a{
-      font-size: 0rem;
-      position: relative;
-    }
-
-    li a::after{
-    content: "\f111";
-    font: 100 0.8rem 'Font Awesome 5 Free';
-    @include transition-ease;
-    }
-
-    li a:hover::after{
-      background-color: $dark-white;
-      border-radius: 50%;
-    }
-
-    li:nth-child(1) a::after {
-      font: 600 0.8rem 'Font Awesome 5 Free';
     }
   }
 }

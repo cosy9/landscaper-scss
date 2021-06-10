@@ -30,3 +30,7 @@ $icon-background:#464646;
     @content;
   }
 }
+
+body{
+  overflow: hidden;
+}

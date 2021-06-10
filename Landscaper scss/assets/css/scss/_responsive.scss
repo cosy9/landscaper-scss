@@ -194,8 +194,12 @@
     }
 
     &-img-grid{
-      grid-template-columns: auto;
+    grid-template-columns: auto;
     grid-template-rows: auto;
+    place-items: center;
+    margin: 3rem auto;
+    left: 0rem;
+    position: relative;
     }
   }
 
