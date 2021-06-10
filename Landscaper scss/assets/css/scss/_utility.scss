@@ -1,0 +1,33 @@
+.wrapper {
+    max-width: 1250px;
+    width: 90%;
+    margin: auto;
+}
+
+.wrapper a {
+    font-size: 1.699rem;
+    color:$white-color;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.969rem 1.418rem;
+    text-decoration: none;
+    border-radius: 0.313rem;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+.btn-primary {
+    color: $white-color;
+    background: $light-green-color;
+    @include transition-ease;
+}
+
+.btn-primary:hover {
+    background: $dark-green-color;
+}

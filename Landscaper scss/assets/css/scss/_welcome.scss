@@ -1,0 +1,97 @@
+//welcome section starts here
+
+.welcome {
+    background: $welcome-background;
+    padding: 7.225rem 0;
+
+    .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 71.188rem;
+    }
+
+    p {
+    font-size: 0.906rem;
+    color: $welcome-para;
+    }
+
+    &-para {
+    width: 60%;
+    padding-right: 2.4rem;
+    position: relative;
+    top: -1.885rem;
+
+    h3{
+    font-size: 2.4rem;
+    color: $dark-shade;
+    font-weight: 500;
+    position: relative;
+    top: 0.113rem;
+
+    &::before{
+    content: '';
+    width: 4.5rem;
+    position: absolute;
+    height: 0.188rem;
+    background: $light-green-color;
+    top: 3.825rem;
+    left: 0.125rem;
+    }
+    }
+
+    span{
+        color: $light-green-color;
+    }
+
+    p:nth-child(2) {
+    margin-top: 3.9rem;
+    line-height: 1.7rem;
+    color: $welcome-para;
+    }
+
+    p:nth-child(3) {
+    margin-top: 1.2rem;
+    line-height: 1.7rem;
+    color: $welcome-para;
+    margin-bottom: 2.0rem;
+    }
+
+    a{
+    font-size: 1rem;
+    font-weight: 300;
+    color: $white-color;
+    }
+  }
+
+  &-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    li{ max-width: 21.25rem; }
+
+    li:nth-child(1) { margin-right: 0.938rem; }
+
+    figure{
+        width: 270px;
+        height: 243px;
+    }
+
+    h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: $dark-shade;
+    margin: 1.4rem 0rem;
+    }
+
+    p{
+    padding-right: 1rem;
+    line-height: 1.7rem;
+    color: $welcome-para;
+    width: 96%;
+    }
+  }
+}
+
+//welcome section ends here

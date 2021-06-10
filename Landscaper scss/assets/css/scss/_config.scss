@@ -1,0 +1,32 @@
+$white-color : #fff;
+$light-green-color : #69ad31;
+$dark-green-color : #768f61;;
+$dark-white:#edece6;
+$welcome-background:#f6f6f6;
+$welcome-para:#8f7683;
+$dark-shade:#363636;
+$services-header:#c3dead;
+$circle-img-border:#78b546;
+$gallery-background: #f6f6f6;
+$gallery-anchor:#d8efd4;
+$gallery-anchor-hover:#465a35;
+$gallery-anchor-hover-b:#a3f894;
+$contact-info-head:#404040;
+$footer-para:#595959;
+$icon-background:#464646;
+
+@mixin transition-ease {
+  transition: all 0.3s ease-in-out;
+}
+
+@mixin media-md {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (max-width: 1080px) {
+    @content;
+  }
+}

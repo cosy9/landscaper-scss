@@ -1,0 +1,65 @@
+.header{
+  background-color: $dark-shade;
+  
+  .wrapper{
+    height: 5.688rem;
+    display: flex;
+    
+  }
+}
+
+h1{
+      padding: 1.813rem 0 1.563rem 2.357rem;
+}
+
+.hambur{
+  display: none;
+  cursor: pointer;
+
+  span{
+    width: 25px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    z-index: 5;
+    background-color: $light-green-color;
+    @include transition-ease;
+    font-size: 0px;
+    transform-origin: left center;
+  }
+  span:nth-child(1) {
+    top: 0;
+  }
+  span:nth-child(2) {
+    top: 8px;
+  }
+  span:nth-child(3) {
+    top: 16px;
+  }
+}
+
+.nav-bar{
+  margin-left: auto;
+  padding: 2.375rem 0rem 1.75rem 0rem;
+  margin-right: 1.625rem;
+
+  li{
+    padding: 0rem 1.375rem;
+  }
+
+  a{
+    color: $white-color;
+    line-height: 1.5rem;
+    letter-spacing: 0.075rem;
+    font-size: 0.863rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    @include transition-ease;
+
+    &:hover{
+      color: $light-green-color;
+    }
+  }  
+}
+
+

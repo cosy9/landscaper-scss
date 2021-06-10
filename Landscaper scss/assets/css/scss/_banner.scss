@@ -1,0 +1,36 @@
+
+.banner-content {
+    background: linear-gradient(rgba(73, 15, 15, 0.144), rgba(255, 255, 255, 0.336)), url('./img/bg-img1.jpg') 0px;
+    width: 100%;
+    height: 135vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -48.125%);
+    color: $dark-white;
+    text-align: center;
+    width: 100%;
+  
+  p{
+    font-size: 1.3rem;
+    width: 50%;
+    margin: 1.2rem auto 1.8rem auto;
+    line-height: 1.8rem;
+  }
+
+  a{
+    font-size: 0.969rem;
+    color: $white-color;
+  }
+}
+
+h2{
+  font-size: 4rem;
+    font-weight: 600;
+}
