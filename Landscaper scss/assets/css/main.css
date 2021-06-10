@@ -1041,6 +1041,9 @@ textarea::placeholder {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
+  h2 {
+    font-size: 3.2rem;
+  }
   .nav-bar a:hover {
     color: #fff;
   }
@@ -1103,14 +1106,14 @@ textarea::placeholder {
     margin-bottom: 2.4rem;
   }
   .services h3 {
-    padding-left: 3.5rem;
+    padding-left: 2rem;
   }
   .services h3::after {
     content: '';
     display: none;
   }
   .gallery h3 {
-    padding-left: 3.5rem;
+    padding-left: 2rem;
   }
   .gallery h3::after {
     content: '';
@@ -1137,14 +1140,14 @@ textarea::placeholder {
     height: 90vh;
   }
   .testimonial h3 {
-    padding-left: 3.5rem;
+    padding-left: 2rem;
   }
   .testimonial h3::after {
     content: '';
     display: none;
   }
   .contact h3 {
-    padding-left: 3.5rem;
+    padding-left: 2rem;
   }
   .contact h3::after {
     content: '';
