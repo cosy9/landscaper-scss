@@ -53,9 +53,7 @@
     margin-top: 4.188rem;
     margin-left: 1.525rem;
 
-  li{ margin-right: 1.375rem; }
-
-  li:nth-child(1) a {
+      .active-item {
     color:$gallery-anchor;
     font-size: 1rem;
     letter-spacing: 0.04rem;
@@ -70,7 +68,9 @@
     }
   }
 
-  li:nth-child(n+2):nth-child(-n+4) a {
+    li{ margin-right: 1.375rem; }
+
+   a {
     font-size: 1rem;
     color: $dark-shade;
     letter-spacing: 0.04rem;
@@ -83,8 +83,13 @@
       background-color: $dark-shade;
       color: $dark-white;
     }
+    
+  
   }
+
 }
 }
 
+
+  
 

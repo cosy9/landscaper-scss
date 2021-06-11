@@ -588,11 +588,7 @@ h2 {
   margin-left: 1.525rem;
 }
 
-.gallery-block li {
-  margin-right: 1.375rem;
-}
-
-.gallery-block li:nth-child(1) a {
+.gallery-block .active-item {
   color: #d8efd4;
   font-size: 1rem;
   letter-spacing: 0.04rem;
@@ -603,12 +599,16 @@ h2 {
   transition: all 0.3s ease-in-out;
 }
 
-.gallery-block li:nth-child(1) a:hover {
+.gallery-block .active-item:hover {
   color: #465a35;
   background-color: #a3f894;
 }
 
-.gallery-block li:nth-child(n+2):nth-child(-n+4) a {
+.gallery-block li {
+  margin-right: 1.375rem;
+}
+
+.gallery-block a {
   font-size: 1rem;
   color: #363636;
   letter-spacing: 0.04rem;
@@ -619,7 +619,7 @@ h2 {
   transition: all 0.3s ease-in-out;
 }
 
-.gallery-block li:nth-child(n+2):nth-child(-n+4) a:hover {
+.gallery-block a:hover {
   background-color: #363636;
   color: #edece6;
 }
@@ -1088,16 +1088,16 @@ textarea::placeholder {
     content: '';
     display: none;
   }
-  .gallery-block li:nth-child(1) a:hover {
-    color: #d8efd4;
-    background-color: #69ad31;
-  }
-  .gallery-block li:nth-child(n+2):nth-child(-n+4) a:hover {
+  .gallery-block li a:hover {
     color: #363636;
     background-color: #edece6;
   }
   .gallery-block li:nth-child(n+1):nth-child(-n+4) a {
     font-size: 0.7rem;
+  }
+  .gallery-block .active-item:hover {
+    color: #d8efd4;
+    background-color: #69ad31;
   }
   .gallery-img-grid {
     -ms-grid-columns: auto;

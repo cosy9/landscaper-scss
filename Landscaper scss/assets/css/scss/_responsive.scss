@@ -178,18 +178,18 @@
 
     &-block{
 
-      li:nth-child(1) a:hover{
-          color:$gallery-anchor;
-          background-color: $light-green-color;
-      }
-
-      li:nth-child(n+2):nth-child(-n+4) a:hover{
+      li a:hover{
           color: $dark-shade;
           background-color: $dark-white;
       }
 
       li:nth-child(n+1):nth-child(-n+4) a{
         font-size: 0.7rem;
+      }
+
+      .active-item:hover{
+      color:$gallery-anchor;
+      background-color: $light-green-color;
       }
     }
 
